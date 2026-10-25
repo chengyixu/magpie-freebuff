@@ -1,5 +1,5 @@
 {
-  "name": "opencode-freebuff-auth",
+  "name": "@chengyixu/magpie-freebuff",
   "version": "1.0.0",
   "type": "module",
   "main": "./index.mjs",
@@ -42,6 +42,7 @@
     "url": "https://github.com/chengyixu/magpie-freebuff/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
