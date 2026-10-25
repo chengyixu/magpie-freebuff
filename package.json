@@ -1,0 +1,47 @@
+{
+  "name": "opencode-freebuff-auth",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./server": "./index.mjs"
+  },
+  "description": "Freebuff provider for Magpie and OpenCode: Freebuff Developer API models with live catalog discovery.",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "magpie",
+    "magpie-plugin",
+    "provider",
+    "auth",
+    "freebuff",
+    "codebuff"
+  ],
+  "files": [
+    "index.mjs",
+    "icon.svg",
+    "README.md"
+  ],
+  "magpie": {
+    "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ny4xOCA3Ny4xOSIgZmlsbD0iIzEwYTM3ZiI+PHBvbHlnb24gcG9pbnRzPSI3Ny4xOCAwIDc3LjE4IDE5LjMgMTkuMyAxOS4zIDE5LjMgNzcuMTkgMCA3Ny4xOSAwIDAgNzcuMTggMCIgZmlsbD0iIzIyYzU1ZSIvPjxwb2x5Z29uIHBvaW50cz0iNjMuNjIgMjQuODkgNjMuNjIgNDQuMTkgNDQuMzIgNDQuMTkgNDQuMzIgNzcuMTkgMjUuMDMgNzcuMTkgMjUuMDMgMjQuODkgNjMuNjIgMjQuODkiIGZpbGw9IiMxNmEzNGEiLz48L3N2Zz4="
+  },
+  "scripts": {
+    "test": "node --test test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengyixu/magpie-freebuff.git"
+  },
+  "homepage": "https://github.com/chengyixu/magpie-freebuff#readme",
+  "bugs": {
+    "url": "https://github.com/chengyixu/magpie-freebuff/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
