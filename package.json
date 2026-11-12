@@ -23,7 +23,8 @@
     "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ny4xOCA3Ny4xOSIgZmlsbD0iIzEwYTM3ZiI+PHBvbHlnb24gcG9pbnRzPSI3Ny4xOCAwIDc3LjE4IDE5LjMgMTkuMyAxOS4zIDE5LjMgNzcuMTkgMCA3Ny4xOSAwIDAgNzcuMTggMCIgZmlsbD0iIzIyYzU1ZSIvPjxwb2x5Z29uIHBvaW50cz0iNjMuNjIgMjQuODkgNjMuNjIgNDQuMTkgNDQuMzIgNDQuMTkgNDQuMzIgNzcuMTkgMjUuMDMgNzcuMTkgMjUuMDMgMjQuODkgNjMuNjIgMjQuODkiIGZpbGw9IiMxNmEzNGEiLz48L3N2Zz4="
   },
   "scripts": {
-    "test": "node --test test.mjs"
+    "test": "node --test test.mjs",
+    "smoke": "node smoke.mjs"
   },
   "engines": {
     "node": ">=18"

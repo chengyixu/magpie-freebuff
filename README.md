@@ -24,7 +24,7 @@ spends a prepaid USD balance, and Freebuff only offers key creation after your f
 - **Models that do not stream still work in streaming agents.** For a model the catalog marks
   `streaming: false`, the plugin asks for one JSON reply and replays it as a stream. Models that stream
   are untouched.
-- **A rejected key shows as signed out.** A `401` marks the account expired (`X-Magpie-Sign-In`).
+- **A rejected key is reported as Freebuff reports it** (`401 Invalid API key`), with `X-Magpie-Sign-In: expired` set on the reply. Magpie 0.1.3295 logs the failed call but still shows the account as signed in, so check `magpie plugin login freebuff` if every request returns 401.
 - **A Freebuff CLI/Desktop session token is refused on the spot**, with a message that says what it is.
 
 ## What it does not do: the free tier
@@ -39,7 +39,8 @@ CLI's system prompt, or its ad flow.
 ## Develop
 
 ```sh
-npm test
+npm test                              # offline, against the recorded catalog
+FREEBUFF_API_KEY=fb_... npm run smoke   # live: one real chat on a streaming and a non-streaming model
 ```
 
 `fixtures/paid-models.json` is a recorded slice of the real catalog. Re-record it with `curl` when the
