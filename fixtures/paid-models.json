@@ -1,0 +1,65 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "deepseek-v4.1-flash",
+      "object": "model",
+      "owned_by": "freebuff",
+      "capabilities": {
+        "chat": true,
+        "streaming": true,
+        "toolCalls": true
+      }
+    },
+    {
+      "id": "gpt-6-luna",
+      "object": "model",
+      "owned_by": "freebuff",
+      "capabilities": {
+        "chat": true,
+        "streaming": false,
+        "toolCalls": true
+      }
+    },
+    {
+      "id": "claude-opus-5-5",
+      "object": "model",
+      "owned_by": "freebuff",
+      "capabilities": {
+        "chat": true,
+        "streaming": false,
+        "toolCalls": false
+      }
+    },
+    {
+      "id": "qwen3.8-max",
+      "object": "model",
+      "owned_by": "freebuff",
+      "capabilities": {
+        "chat": true,
+        "streaming": false,
+        "toolCalls": true
+      }
+    },
+    {
+      "id": "mimo-v2.5",
+      "object": "model",
+      "owned_by": "freebuff",
+      "capabilities": {
+        "chat": true,
+        "streaming": false,
+        "toolCalls": false
+      }
+    },
+    {
+      "id": "claude-fable-5-1",
+      "object": "model",
+      "owned_by": "freebuff",
+      "capabilities": {
+        "chat": true,
+        "streaming": false,
+        "toolCalls": true
+      }
+    }
+  ]
+}
